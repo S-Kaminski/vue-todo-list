@@ -18,8 +18,6 @@
                 <button class="remover" @click="removeTask(task.id)">X</button>
         </li>
       </ul>
-
-      
       <br>
     </div>
     
@@ -30,7 +28,7 @@
   import { v4 as uuidv4 } from 'uuid';
 
   @Component
-  export default class ContainerTemplate extends Vue {
+  export default class TheContainer extends Vue {
     data() {
         return {
             

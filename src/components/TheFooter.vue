@@ -17,7 +17,7 @@
   import { Component, Prop, Vue } from 'vue-property-decorator';
   
   @Component
-  export default class FooterComponent extends Vue {
+  export default class TheFooter extends Vue {
     public changeToImportant(): void {
         this.$store.commit('changeImportanceOfSelectedTasks');
     }

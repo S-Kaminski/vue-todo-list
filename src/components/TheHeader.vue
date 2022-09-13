@@ -12,7 +12,7 @@
   import { Component, Prop, Vue } from 'vue-property-decorator';
   
   @Component
-  export default class HeaderComponent extends Vue {
+  export default class TheHeader extends Vue {
     
   }
   </script>
